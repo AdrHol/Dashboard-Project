@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+       <header>
+           <div id="navbar">
+               <div class="left">
+                   <div id="search-icon"><img src=".//icons/search.svg" alt="search"></div>
+                   <input type="text" id="searching">
+               </div>
+               <div class="right">
+                   <a href=""><img src="../Dashboard-Project/icons/alert-svgrepo-com.svg" alt="alerts" id="alert"></a>
+                   <img src="../Dashboard-Project/icons/avatar.png" alt="profile-pic" id="avatar-mini">
+                   <span id="current-user-small">Stranger Visitor</span>
+               </div>
+           </div>
+           <div id="actionbar">
+               <div class="left">
+                   <img src="../Dashboard-Project/icons/avatar.png" alt="profile image" id="avatar-big">
+                       <div>
+                           <p id="greetings">Hi, there,</p>
+                           <p id="current-user-big">Stranger Visitor (@svisitor)</p>
+                       </div>
+               </div>
+               <div class="right">
+                   <button class="action-button">New</button>
+                   <button class="action-button">Upload</button>
+                   <button class="action-button">Share</button>
+               </div>
+           </div>
+       </header>
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="../Dashboard-Project/icons/dashboard-svgrepo-com.svg" alt="dashboard-logo">
+                DASHBOARD
+            </div>
+            <ul class="main-list">
+                <li><img src="../Dashboard-Project/icons/home.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">Home</a></span></li>
+                <li><img src="../Dashboard-Project/icons/profile.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">Profile</a></span></li>
+                <li><img src="../Dashboard-Project/icons/messages.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">Messages</a></span></li>
+                <li><img src="../Dashboard-Project/icons/history.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">History</a></span></li>
+                <li><img src="../Dashboard-Project/icons/tasks.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">Tasks</a></span></li>
+                <li><img src="../Dashboard-Project/icons/community.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">Community</a></span></li>
+            </ul>
+            <ul>
+                <li><img src="../Dashboard-Project/icons/settings.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">Settings</a></span></li>
+                <li><img src="../Dashboard-Project/icons/support.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">Support</a></span></li>
+                <li><img src="../Dashboard-Project/icons/privacy.svg" alt="icon" class="list-icon"><span class="right-list-side"><a href="/">Privacy</a></span></li>
+            </ul>
+        </div>
+        <section class="center">
+            <div class="main-content">
+                <h1 class="main-content-header">Active Products</h1>
+                <div class="products-container">
+                    <div class="product">
+                        <p class="product-title">Sweet Cake</p>
+                        <p class="product-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p class="product-actions">
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/photo.svg" alt="product-photo"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/content.svg" alt="product-content"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/finance.svg" alt="finance"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/stats.svg" alt="product-statistics"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/release.svg" alt="product-availability"></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-title">Extra Tasty Donuts</p>
+                        <p class="product-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p class="product-actions">
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/photo.svg" alt="product-photo"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/content.svg" alt="product-content"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/finance.svg" alt="finance"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/stats.svg" alt="product-statistics"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/release.svg" alt="product-availability"></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-title">Grandmas cookies</p>
+                        <p class="product-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p class="product-actions">
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/photo.svg" alt="product-photo"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/content.svg" alt="product-content"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/finance.svg" alt="finance"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/stats.svg" alt="product-statistics"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/release.svg" alt="product-availability"></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-title">Chocolate cake</p>
+                        <p class="product-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p class="product-actions">
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/photo.svg" alt="product-photo"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/content.svg" alt="product-content"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/finance.svg" alt="finance"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/stats.svg" alt="product-statistics"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/release.svg" alt="product-availability"></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-title">EMPTY</p>
+                        <p class="product-content">This slot is empty. Create new product to expand your portfolio !</p>
+                        <p class="product-actions">
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/photo.svg" alt="product-photo"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/content.svg" alt="product-content"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/finance.svg" alt="finance"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/stats.svg" alt="product-statistics"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/release.svg" alt="product-availability"></a>
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-title">EMPTY</p>
+                        <p class="product-content">This slot is empty. Create new product to expand your portfolio !</p>
+                        <p class="product-actions">
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/photo.svg" alt="product-photo"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/content.svg" alt="product-content"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/finance.svg" alt="finance"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/stats.svg" alt="product-statistics"></a>
+                            <a class='product-action' href="/"><img class='action-img' src="../Dashboard-Project/icons/release.svg" alt="product-availability"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div id="announcements">
+                    <p class="small-heading">Announcements</p>
+                    <div class="side-content">
+                        <ul class="announcement-list">
+                            <li class="announcement">Jack has bought 1320 kg of Chocolate Cake</li>
+                            <li class="announcement">New features coming soon !</li>
+                            <li class="announcement">Stacy is asking for discount.</li>
+                            <li class="announcement">Your product has been deleted</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="trending">
+                    <p class="small-heading">Related users</p>
+                    <div class="side-content">
+                        <p class="admin"><img src="/" alt="avatar"><span>Jack</span></p>
+                        <p class="admin"><img src="/" alt="avatar"><span>Stacy</span></p>
+                        <p class="admin"><img src="/" alt="avatar"><span>Steven</span></p>
+                        <p class="admin"><img src="/" alt="avatar"><span>Merry</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
