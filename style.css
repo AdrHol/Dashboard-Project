@@ -262,7 +262,7 @@ a {
     color: var(--dark-color);
 }
 
-.announcement-list {
+ul {
     list-style-type: none;
 }
 
