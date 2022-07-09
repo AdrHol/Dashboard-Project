@@ -262,7 +262,8 @@ a {
     color: var(--dark-color);
 }
 
-ul {
+ul,
+.main-list {
     list-style-type: none;
 }
 
